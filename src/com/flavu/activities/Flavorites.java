@@ -1,8 +1,6 @@
 package com.flavu.activities;
 
 import com.flavu.R;
-import com.flavu.R.layout;
-import com.flavu.R.menu;
 
 import android.os.Bundle;
 import android.app.Activity;

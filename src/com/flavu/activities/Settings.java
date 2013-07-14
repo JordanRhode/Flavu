@@ -20,8 +20,6 @@ import android.text.TextUtils;
 import java.util.List;
 
 import com.flavu.R;
-import com.flavu.R.string;
-import com.flavu.R.xml;
 
 /**
  * A {@link PreferenceActivity} that presents a set of application settings. On
@@ -55,6 +53,7 @@ public class Settings extends PreferenceActivity {
 	 * device configuration dictates that a simplified, single-pane UI should be
 	 * shown.
 	 */
+	@SuppressWarnings("deprecation")
 	private void setupSimplePreferencesScreen() {
 		if (!isSimplePreferences(this)) {
 			return;
