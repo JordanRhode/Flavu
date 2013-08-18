@@ -3,7 +3,7 @@ package bidness;
 import java.util.ArrayList;
 import com.flavu.R.string;
 
-public class Flavor 
+public class Flavor extends DataObject
 {
 	private long _flavorID;
 	private long _companyID;
@@ -72,7 +72,7 @@ public class Flavor
 		this._description = _description;
 	}
 
-	private boolean ContainsKeyword(string word)
+	public boolean ContainsKeyword(string word)
 	{
 		for (string s : _keywords)
 		{
@@ -84,7 +84,7 @@ public class Flavor
 		return false;
 	}
 	
-	private boolean ContainsKeyword(ArrayList<string> words)
+	public boolean ContainsKeyword(ArrayList<string> words)
 	{
 		for (string word : words)
 		{

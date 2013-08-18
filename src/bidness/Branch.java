@@ -1,8 +1,10 @@
 package bidness;
 
+import java.util.ArrayList;
+
 import com.flavu.R.string;
 
-public class Branch 
+public class Branch extends DataObject
 {
 	
 	private long _branchID;
@@ -79,5 +81,18 @@ public class Branch
 		this._phone = _phone;
 	}
 	
+	public ArrayList<Flavor> GetFlavors()
+	{
+		return GetFlavors(new ArrayList<string>());
+	}
+	
+	public ArrayList<Flavor> GetFlavors(ArrayList<string> keywords)
+	{
+		ArrayList<Flavor> flavors = new ArrayList<Flavor>();
+		//TODO: Implement a search object like in snowshoe?
+		//Search search = new Search(Flavor
+		
+		return flavors;
+	}
 	
 }

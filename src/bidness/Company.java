@@ -2,7 +2,7 @@ package bidness;
 
 import com.flavu.R.string;
 
-public class Company
+public class Company extends DataObject
 {
 	private long _companyID;
 	private string _name;

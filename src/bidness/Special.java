@@ -4,7 +4,7 @@ import java.util.Date;
 import com.flavu.R.string;
 import android.text.format.Time;
 
-public class Special 
+public class Special extends DataObject
 {
 	private long _specialID;
 	private long _companyID;
